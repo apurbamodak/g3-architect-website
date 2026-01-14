@@ -120,6 +120,41 @@ main>section {
     font-weight: 500;
 }
 
+/* some facts related styles */
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7.8rem;
+}
+
+.fact-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-number {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+
+}
+
+.facts-discription {
+    max-width: 540px;
+}
+
 /* responsive small media query */
 @media screen and (max-width:576px) {
 
